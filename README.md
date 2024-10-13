@@ -2,7 +2,6 @@
 
 Config files for terminal and other applications. Mainly designed for Arch OS.
 
-# Installation
 
 ## Dependencies
 
@@ -10,6 +9,7 @@ Config files for terminal and other applications. Mainly designed for Arch OS.
 git
 GNU stow
 ```
+
 
 ## Install
 
