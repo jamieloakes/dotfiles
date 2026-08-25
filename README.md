@@ -15,21 +15,21 @@ GNU stow
 
 Install dependencies (if required)
 ```
-    sudo pacman -S git stow
+sudo pacman -S git stow
 ```
 
 
 Create dotfiles directory
 ```
-    mkdir ~/dotfiles
+mkdir ~/dotfiles
 ```
 
 Clone repository into newly created dotfiles directory
 ```
-    git clone https://github.com/jamieloakes/dotfiles.git ~/dotfiles
+git clone https://github.com/jamieloakes/dotfiles.git ~/dotfiles
 ```
 
 Setup GNU Stow for easy management of config files
 ```
-    stow .
+stow .
 ```
