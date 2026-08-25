@@ -14,6 +14,7 @@ alias sysupdate='sudo pacman -Syu' # Perform full system update
 
 alias pkglist='pacman -Qs --color=always | less -R' # Show list of installed packages
 alias pkgsearch='pacman -Qs --color=always | less -R | grep' # Search for installed packages
+alias yayrebuild='rm -rf test/{*,.*} && rmdir yay && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si' # Reinstall yay
 
 alias enablevenv='source env/bin/activate' # Activate python virtual environment
 
